@@ -26,7 +26,7 @@ app.post('/api/page-content', (req, res) => {
   res.status(200).json({ message: 'Page content received successfully' });
 });
 
-// Start the server
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
